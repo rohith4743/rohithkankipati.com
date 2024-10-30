@@ -1,0 +1,73 @@
+[
+    {
+        "title": "Research Assistant",
+        "company": "University of Maryland, Baltimore County",
+        "location": "Baltimore, MD",
+        "dates": "Aug 2023 \u2013 May 2024",
+        "description": [
+            "Developed a scalable cloud-based platform using <b>Java</b>, <b>AWS Lambda</b>, and <b>S3</b> for video processing and object detection, integrating <b>machine learning models</b> for analytics.",
+            "Built front-end dashboards using <b>React</b> and <b>JavaScript</b>, improving user engagement through interactive visualizations.",
+            "Established data pipelines with <b>DynamoDB</b>, <b>Amazon RDS</b>, and <b>AWS S3</b>, ensuring efficient data management and retrieval.",
+            "Automated model deployment with <b>AWS ECS</b>, <b>SageMaker</b>, <b>CloudWatch</b>, and <b>SNS</b>, enabling real-time alerts and auto-scaling.",
+            "Created backend services using <b>Spring Boot</b>, ensuring secure and scalable API development in alignment with full <b>SDLC</b> processes, from requirements analysis to deployment and maintenance.",
+            "Leveraged <b>Kafka</b> and <b>Redis</b> for real-time message-driven processing and caching, improving efficiency.",
+            "Focused on memory management and performance optimization, ensuring low-latency responses.",
+            "Employed testing tools like <b>JUnit</b> and <b>Mockito</b> for robust code verification and high test coverage.",
+            "Maintained CI/CD pipelines using <b>GitLab</b>, ensuring consistent code integration, monitoring through <b>Splunk</b>, and smooth deployment across environments."
+        ]
+    },
+    {
+        "title": "Software Development Engineer (Specialist Programmer)",
+        "company": "Infosys Ltd.",
+        "location": "Hyderabad, India",
+        "dates": "Dec 2021 \u2013 Aug 2022",
+        "description": [
+            "Built RESTful APIs using <b>Spring Boot</b> and <b>Java</b>, enhancing backend architecture and achieving efficient response times through <b>Redis</b> caching and query optimization.",
+            "Developed and deployed a multi-language compilation engine using <b>Java Spring Boot</b>, <b>Docker</b>, <b>AWS ECS</b>, and <b>Redis Streams</b>, optimizing the system for handling large-scale coding competitions and ensuring robust microservices integration.",
+            "Optimized database interactions using <b>Hibernate</b>, <b>Spring Data</b>, and <b>PL/SQL</b> with <b>Oracle</b>, enhancing performance and managing complex database operations for scalable and efficient system architecture.",
+            "Designed and implemented user interfaces with <b>React</b>, <b>Bootstrap</b>, and <b>JavaScript</b>, ensuring cross-device compatibility and an improved user experience.",
+            "Managed task queues and caching mechanisms using <b>AWS SQS</b> and <b>ElastiCache</b>, supporting distributed architecture and scalable system operations.",
+            "Secured APIs with <b>OAuth2</b> and <b>Spring Security</b>, providing role-based access control and API protection.",
+            "Automated deployment pipelines with <b>Jenkins</b>, <b>Maven</b>, <b>Kubernetes</b>, UNIX shell scripting, and <b>AWS CodeDeploy</b>, streamlining CI/CD practices for efficient software delivery.",
+            "Implemented monitoring and logging with <b>AWS CloudWatch</b> and <b>AWS CloudTrail</b>, improving observability and proactive issue resolution.",
+            "Actively contributed in Agile teams, utilizing <b>SCRUM</b> and <b>Lean</b> methodologies for feature delivery and project milestones.",
+            "Utilized <b>Apache Kafka</b> for building real-time telemetry systems, enhancing data analysis and system activity tracking."
+        ]
+    },
+    {
+        "title": "Junior Software Developer",
+        "company": "Infosys Ltd.",
+        "location": "Hyderabad, India",
+        "dates": "Nov 2020 \u2013 Dec 2021",
+        "description": [
+            "Built and integrated REST APIs using <b>Java Spring Boot</b> with <b>React</b> and <b>RxJS</b>, enabling seamless client-server communication and improved system performance.",
+            "Developed and deployed telemetry systems using <b>Kafka</b> and <b>AWS Lambda</b> for real-time contest activity tracking, storing results in <b>Amazon RDS</b> for quick reporting.",
+            "Automated infrastructure provisioning and deployment pipelines with <b>Terraform</b>, <b>Kubernetes</b>, <b>Jenkins</b>, UNIX, <b>Maven</b>, and <b>AWS CodeDeploy</b>, streamlining IaC practices for efficient cloud infrastructure setup and management.",
+            "Improved API performance through <b>Redis</b> caching and SQL query optimization, achieving sub-50ms response times.",
+            "Spearheaded the migration of backend services from a monolithic architecture to a microservices-based system, enhancing scalability and system flexibility.",
+            "Conducted automated testing with <b>JUnit</b> and <b>Mockito</b>, achieving high test coverage and reducing post-deployment issues.",
+            "Engaged in Agile development practices, participating in <b>SCRUM</b> sprints for consistent and iterative development.",
+            "Collaborated with teams using <b>Git</b> for version control and code integration, ensuring smooth collaboration and delivery.",
+            "Built secure systems with <b>OAuth2</b> integration and implemented monitoring using <b>AWS CloudWatch</b>, enhancing the overall system's reliability.",
+            "Optimized database interactions with <b>Hibernate</b>, <b>Spring Data</b> and <b>MongoDB</b>, enhancing performance and system scalability."
+        ]
+    },
+    {
+        "title": "Software Engineer Intern",
+        "company": "DBAce Technologies Pvt. Ltd.",
+        "location": "Hyderabad, India",
+        "dates": "Jun 2020 \u2013 Oct 2020",
+        "description": [
+            "Developed SOAP-based web services using <b>Java</b> and <b>Struts</b>, integrating with legacy systems and enterprise applications.",
+            "Documented processes and system architecture, ensuring compliance with <b>SAFe</b> methodologies for effective project management.",
+            "Created responsive web pages using <b>HTML</b>, <b>CSS</b>, and <b>Bootstrap</b>, enhancing multi-device user experience.",
+            "Built and monitored APIs using <b>J2EE</b>, ensuring efficient service integration and communication.",
+            "Collaborated using <b>Git</b> for version control, supporting efficient code integration.",
+            "Participated in <b>SCRUM</b> sprints, contributing to feature planning and timely delivery.",
+            "Optimized database systems using <b>Postgres</b> and SQL tuning, improving data management capabilities.",
+            "Automated builds and deployments using <b>Jenkins</b> and <b>Docker</b>, ensuring efficient rollouts.",
+            "Implemented <b>OAuth</b> for secure API access and protected sensitive application data.",
+            "Gained hands-on experience with RESTful APIs, enhancing integration and client-side interaction."
+        ]
+    }
+]

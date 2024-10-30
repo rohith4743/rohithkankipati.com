@@ -1,0 +1,161 @@
+/* Header.css */
+
+.header {
+  background: linear-gradient(135deg, #4a90e2, #6a82fb);
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+/* Desktop Navigation Container */
+.desktop-nav-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.desktop-nav-left {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffba08;
+}
+
+.btn-download {
+  padding: 10px 20px;
+  background-color: #ffba08;
+  color: #1a1a1a;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-download:hover {
+  background-color: #ffa500;
+  box-shadow: 0 4px 12px rgba(255, 186, 8, 0.3);
+}
+
+/* Profile Section */
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.role {
+  font-size: 1.2rem;
+  color: #ddd;
+  margin-bottom: 10px;
+}
+
+.badges {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.badge {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.badge:hover {
+  transform: scale(1.1);
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.social-links a {
+  font-size: 1.5rem;
+  color: #ffffff;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #ffba08;
+  transform: translateY(-4px);
+}
+
+/* Mobile Specific Styles */
+.mobile-nav-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  /* Hide desktop nav on mobile */
+  .desktop-nav-container {
+    display: none;
+  }
+
+  /* Show menu icon for mobile */
+  .mobile-nav-toggle {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 20px;
+  }
+
+  .menu-icon {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  /* Mobile nav menu */
+  .mobile-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .mobile-nav .nav-link, .mobile-nav .btn-download {
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+}

@@ -1,14 +1,38 @@
 // src/components/Education.js
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import './Education.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMapMarkerAlt, faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 
-function Education() {
+const Education = () => {
+  const [education, setEducation] = useState([]);
+
+  useEffect(() => {
+    fetch('/data/education.json')
+      .then((response) => response.json())
+      .then((data) => setEducation(data))
+      .catch((error) => console.error("Error loading education data:", error));
+  }, []);
+
   return (
-    <section className="education-section text-center">
+    <section className="education-section">
       <h2>Education</h2>
-      <p>M.S. in Computer Science, University of Maryland, Baltimore County, May 2024</p>
-      <p>B. Tech in Computer Science and Engineering, Andhra University, Sep 2020</p>
+      <div className="education-container">
+        {education.map((entry, index) => (
+          <div className="education-card" key={index}>
+            <h3>{entry.degree}</h3>
+            <h4>{entry.institution}</h4>
+            <p className="education-location">
+              <FontAwesomeIcon icon={faMapMarkerAlt} /> {entry.location}
+            </p>
+            <p className="education-dates">
+              <FontAwesomeIcon icon={faCalendarAlt} /> {entry.dates}
+            </p>
+          </div>
+        ))}
+      </div>
     </section>
   );
-}
+};
 
 export default Education;

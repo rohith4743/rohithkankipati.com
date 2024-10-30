@@ -1,0 +1,37 @@
+[
+    {
+        "title": "E-commerce Application for Liquor Store",
+        "description": [
+            "Developed a full-stack e-commerce platform for a liquor store with React frontend and Java Spring Boot backend, ensuring a seamless shopping experience.",
+            "Integrated Elasticsearch for product search and auto-suggestions, improving search efficiency and user experience.",
+            "Utilized AWS S3 for frontend hosting, AWS CloudFront for content delivery, and AWS Route 53 for domain management, ensuring fast and secure global access.",
+            "Deployed backend services on AWS EC2 using Jenkins for CI/CD, and managed infrastructure with AWS CloudFormation, including security groups, VPC, Elastic Load Balancing (ALB), and Amazon RDS with Postgres for efficient and scalable database management."
+        ],
+        "backendLink": "https://github.com/yourusername/liquor-store-backend",
+        "frontendLink": "https://github.com/yourusername/liquor-store-frontend",
+        "projectLink": "https://liquor-store.rohithkankipati.com"
+    },
+    {
+        "title": "Loan Application Platform",
+        "description": [
+            "Developed a web-based platform using React to allow users to fill out loan applications with Google Maps API for address autofill and Google reCAPTCHA for verification.",
+            "Built a secure portal for users to view and manage applications, using Amazon Aurora for storing application data and Kafka for real-time updates.",
+            "Integrated real-time notifications using AWS SNS to provide status updates. Implemented auto-scaling (ASG) and CloudWatch logs for high availability and monitoring.",
+            "Deployed backend services using Node.js on Google Cloud Platform (GCP), integrated New Relic alongside Datadog for comprehensive performance monitoring, logging, and metrics tracking."
+        ],
+        "backendLink": null,
+        "frontendLink": null,
+        "projectLink": "https://loan-platform.rohithkankipati.com"
+    },
+    {
+        "title": "Task Management Application",
+        "description": [
+            "Developed a task scheduling platform using Angular for the frontend and Java Spring Boot for the backend, enabling users to create, update, and manage daily tasks.",
+            "Built a real-time notification system using WebSocket for instant updates, ensuring a seamless user experience.",
+            "Used MongoDB for task data storage, providing scalable and efficient management of user tasks and schedules."
+        ],
+        "backendLink": "https://github.com/yourusername/task-manager-backend",
+        "frontendLink": "https://github.com/yourusername/task-manager-frontend",
+        "projectLink": "https://task-manager.rohithkankipati.com"
+    }
+]

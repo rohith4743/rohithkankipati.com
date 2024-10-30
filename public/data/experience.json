@@ -1,0 +1,83 @@
+[
+    {
+        "title": "Research Assistant",
+        "company": "University of Maryland, Baltimore County",
+        "location": "Baltimore, MD",
+        "dates": "Aug 2023 \u2013 May 2024",
+        "description": [
+            "Developed a scalable cloud-based platform using Java, AWS Lambda, and S3 for video processing and object detection, integrating machine learning models for analytics.",
+            "Built front-end dashboards using React and JavaScript, improving user engagement through interactive visualizations.",
+            "Established data pipelines with DynamoDB, Amazon RDS, and AWS S3, ensuring efficient data management and retrieval.",
+            "Automated model deployment with AWS ECS, SageMaker, CloudWatch, and SNS, enabling real-time alerts and auto-scaling.",
+            "Created backend services using Spring Boot, ensuring secure and scalable API development in alignment with full SDLC processes, from requirements analysis to deployment and maintenance.",
+            "Leveraged Kafka and Redis for real-time message-driven processing and caching, improving efficiency.",
+            "Focused on memory management and performance optimization, ensuring low-latency responses.",
+            "Employed testing tools like JUnit and Mockito for robust code verification and high test coverage.",
+            "Maintained CI/CD pipelines using GitLab, ensuring consistent code integration, monitoring through Splunk, and smooth deployment across environments."
+        ]
+    },
+    {
+        "title": "Software Development Engineer (Specialist Programmer)",
+        "company": "Infosys Ltd.",
+        "location": "Hyderabad, India",
+        "dates": "Dec 2021 \u2013 Aug 2022",
+        "description": [
+            "Built RESTful APIs using Spring Boot and Java, enhancing backend architecture and achieving efficient response times through Redis caching and query optimization.",
+            "Developed and deployed a multi-language compilation engine using Java Spring Boot, Docker, AWS ECS, and Redis Streams, optimizing the system for handling large-scale coding competitions and ensuring robust microservices integration.",
+            "Optimized database interactions using Hibernate, Spring Data, and PL/SQL with Oracle, enhancing performance and managing complex database operations for scalable and efficient system architecture.",
+            "Designed and implemented user interfaces with React, Bootstrap, and JavaScript, ensuring cross-device compatibility and an improved user experience.",
+            "Managed task queues and caching mechanisms using AWS SQS and ElastiCache, supporting distributed architecture and scalable system operations.",
+            "Secured APIs with OAuth2 and Spring Security, providing role-based access control and API protection.",
+            "Automated deployment pipelines with Jenkins, Maven, Kubernetes, UNIX shell scripting and AWS CodeDeploy, streamlining CI/CD practices for efficient software delivery.",
+            "Implemented monitoring and logging with AWS CloudWatch and CloudTrail, improving observability and proactive issue resolution.",
+            "Actively contributed in Agile teams, utilizing SCRUM and Lean methodologies for feature delivery and project milestones.",
+            "Utilized Apache Kafka for building real-time telemetry systems, enhancing data analysis and system activity tracking."
+        ]
+    },
+    {
+        "title": "Junior Software Developer",
+        "company": "Infosys Ltd.",
+        "location": "Hyderabad, India",
+        "dates": "Nov 2020 \u2013 Dec 2021",
+        "description": [
+            "Built and integrated REST APIs using Java Spring Boot with React and RxJS, enabling seamless client-server communication and improved system performance.",
+            "Developed and deployed telemetry systems using Kafka and AWS Lambda for real-time contest activity tracking, storing results in Amazon RDS for quick reporting.",
+            "Automated infrastructure provisioning and deployment pipelines with Terraform, Kubernetes, Jenkins, UNIX, Maven, and AWS CodeDeploy, streamlining IaC practices for efficient cloud infrastructure setup and management.",
+            "Improved API performance through Redis caching and SQL query optimization, achieving sub-50ms response times.",
+            "Spearheaded the migration of backend services from a monolithic architecture to a microservices-based system, enhancing scalability and system flexibility.",
+            "Conducted automated testing with JUnit and Mockito, achieving high test coverage and reducing post-deployment issues.",
+            "Engaged in Agile development practices, participating in SCRUM sprints for consistent and iterative development.",
+            "Collaborated with teams using Git for version control and code integration, ensuring smooth collaboration and delivery.",
+            "Built secure systems with OAuth2 integration and implemented monitoring using AWS CloudWatch, enhancing the overall system's reliability.",
+            "Optimized database interactions with Hibernate, Spring Data and MongoDB, enhancing performance and system scalability."
+        ]
+    },
+    {
+        "title": "Software Engineer Intern",
+        "company": "DBAce Technologies Pvt. Ltd.",
+        "location": "Hyderabad, India",
+        "dates": "Jun 2020 \u2013 Oct 2020",
+        "description": [
+            "Developed SOAP-based web services using Java and Struts, integrating with legacy systems and enterprise applications.",
+            "Documented processes and system architecture, ensuring compliance with SAFe methodologies for effective project management.",
+            "Created responsive web pages using HTML, CSS, and Bootstrap, enhancing multi-device user experience.",
+            "Built and monitored APIs using J2EE, ensuring efficient service integration and communication.",
+            "Collaborated using Git for version control, supporting efficient code integration.",
+            "Participated in SCRUM sprints, contributing to feature planning and timely delivery.",
+            "Optimized database systems using Postgres and SQL tuning, improving data management capabilities.",
+            "Automated builds and deployments using Jenkins and Docker, ensuring efficient rollouts.",
+            "Implemented OAuth for secure API access and protected sensitive application data.",
+            "Gained hands-on experience with RESTful APIs, enhancing integration and client-side interaction."
+        ]
+    },
+    {
+        "title": "Technical Coordinator & Coding Club Lead",
+        "company": "Computer Society of India, Anil Neerukonda Institute of Technology and Sciences",
+        "location": "Visakhapatnam, India",
+        "dates": "Jul 2019 - May 2020",
+        "description": [
+            "Managed a coding club, organized coding contests, and created coding questions.",
+            "Contributed to developing the college website, using HTML, CSS, and JS."
+        ]
+    }
+]

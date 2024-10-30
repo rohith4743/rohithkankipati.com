@@ -1,0 +1,13 @@
+{
+    "Programming Languages": ["Java 11", "Java 8", "Python", "JavaScript", "TypeScript", "SQL"],
+    "Backend & API Development": ["Spring Boot", "Spring MVC", "Spring Cloud", "Spring Batch", "J2EE", "Struts", "Hibernate", "RESTful APIs"],
+    "Web & Frontend Technologies": ["HTML5", "CSS3", "JavaScript", "React", "Angular", "Bootstrap", "JSON", "XML"],
+    "Cloud & Infrastructure Technologies": ["AWS (EC2, S3, Lambda)", "GCP", "Terraform", "CloudFormation"],
+    "Databases": ["PostgreSQL", "MySQL", "Oracle", "MongoDB", "DynamoDB"],
+    "Distributed Systems & Messaging": ["Apache Kafka", "Redis", "AWS ElastiCache"],
+    "DevOps & CI/CD Tools": ["Jenkins", "GitLab", "GitHub Actions", "AWS CodeDeploy", "Docker", "Kubernetes"],
+    "Testing & Automation Tools": ["JUnit", "Mockito", "AssertJ"],
+    "Operating Systems & Scripting": ["Windows", "Linux", "Unix", "Shell Scripting"],
+    "Development Methodologies": ["Agile (SCRUM, Lean)", "SAFe"]
+  }
+  

@@ -1,0 +1,84 @@
+/* src/components/Other.css */
+
+.other-section {
+    padding: 3rem 1.5rem;
+    background-color: transparent;
+    color: #333;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .other-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+  
+  .other-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .other-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1.75rem;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+    position: relative;
+  }
+  
+  .other-card h3 {
+    font-size: 1.5rem;
+    color: #4a90e2;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .other-card ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    color: #555;
+  }
+  
+  .other-card ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .leetcode-card {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: #fff;
+  }
+  
+  .other-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  .other-card p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .other-section {
+      padding: 1.5rem;
+    }
+  
+    .other-card {
+      padding: 1.5rem;
+    }
+  
+    .other-card h3 {
+      font-size: 1.4rem;
+    }
+  }
+  

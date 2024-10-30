@@ -1,26 +1,54 @@
 // src/components/Projects.js
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import './Projects.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCodeBranch, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 
-function Projects() {
-  const projects = [
-    { title: "Liquor Store", description: "E-commerce platform for liquor store.", link: "https://liquor-store.rohithkankipati.com" },
-    { title: "Mood Music", description: "Music discovery and recommendation platform.", link: "https://moodmusic.rohithkankipati.com" },
-  ];
+const Projects = () => {
+  const [projects, setProjects] = useState([]);
+
+  useEffect(() => {
+    fetch('/data/projects_with_bold.json')
+      .then((response) => response.json())
+      .then((data) => setProjects(data))
+      .catch((error) => console.error("Error loading projects data:", error));
+  }, []);
 
   return (
-    <section className="projects-section text-center">
+    <section className="projects-section">
       <h2>Projects</h2>
-      <div className="project-cards">
+      <div className="projects-container">
         {projects.map((project, index) => (
           <div className="project-card" key={index}>
             <h3>{project.title}</h3>
-            <p>{project.description}</p>
-            <a href={project.link} target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">View Project</a>
+            <ul className="project-description">
+              {project.description.map((line, i) => (
+                <li key={i} dangerouslySetInnerHTML={{ __html: line }} />
+
+              ))}
+            </ul>
+            <div className="project-links">
+              {project.projectLink && (
+                <a href={project.projectLink} target="_blank" rel="noopener noreferrer" className="project-link">
+                  <FontAwesomeIcon icon={faExternalLinkAlt} /> Live Project
+                </a>
+              )}
+              {project.backendLink && (
+                <a href={project.backendLink} target="_blank" rel="noopener noreferrer" className="project-link">
+                  <FontAwesomeIcon icon={faCodeBranch} /> GitHub (Backend)
+                </a>
+              )}
+              {project.frontendLink && (
+                <a href={project.frontendLink} target="_blank" rel="noopener noreferrer" className="project-link">
+                  <FontAwesomeIcon icon={faCodeBranch} /> GitHub (Frontend)
+                </a>
+              )}
+            </div>
           </div>
         ))}
       </div>
     </section>
   );
-}
+};
 
 export default Projects;
