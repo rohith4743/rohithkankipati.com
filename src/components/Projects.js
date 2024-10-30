@@ -15,7 +15,7 @@ function Projects() {
           <div className="project-card" key={index}>
             <h3>{project.title}</h3>
             <p>{project.description}</p>
-            <a href={project.link} target="_blank" className="btn btn-outline-primary">View Project</a>
+            <a href={project.link} target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">View Project</a>
           </div>
         ))}
       </div>
