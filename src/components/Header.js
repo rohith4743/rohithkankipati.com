@@ -4,8 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import ProfilePic from '../assets/Profilepic.jpg';
-import AWSSAA from '../assets/aws-saa-badge.png'; // Replace with correct path
-import AWSDeveloper from '../assets/aws-dev-badge.png'; // Replace with correct path
+import AWSSAA from '../assets/aws-saa-badge.png'; 
+import AWSDeveloper from '../assets/aws-dev-badge.png';
+import resume from '../assets/ROHITHKANKIPATI_resume.pdf';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -14,12 +15,12 @@ const Header = () => {
     <header className="header">
       {/* Desktop and Tablet Navigation */}
       <div className="desktop-nav-container">
-        <nav className="desktop-nav-left">
+        <div className="desktop-nav-left">
           <a href="/" className="nav-link">Home</a>
           <a href="/blogs" className="nav-link">Blogs</a>
           <a href="/contact" className="nav-link">Contact</a>
-        </nav>
-        <a href="/path-to-resume.pdf" target="_blank" className="btn-download">Download Resume</a>
+        </div>
+        <a href={resume} target="_blank" rel="noreferrer" className="btn-download">Download Resume</a>
       </div>
 
       {/* Mobile Navigation Toggle */}
@@ -35,14 +36,14 @@ const Header = () => {
           <a href="/" className="nav-link" onClick={() => setMenuOpen(false)}>Home</a>
           <a href="/blogs" className="nav-link" onClick={() => setMenuOpen(false)}>Blogs</a>
           <a href="/contact" className="nav-link" onClick={() => setMenuOpen(false)}>Contact</a>
-          <a href="/path-to-resume.pdf" target="_blank" className="btn-download" onClick={() => setMenuOpen(false)}>Download Resume</a>
+          <a href={resume} target="_blank" rel="noreferrer" className="btn-download" onClick={() => setMenuOpen(false)}>Download Resume</a>
         </nav>
       )}
 
       {/* Profile Section */}
       <div className="profile-section">
+        <p className="intro">Hi, I am Rohith Kankipati</p>
         <img src={ProfilePic} alt="Profile" className="profile-image" />
-        <h1 className="name">Rohith Kankipati</h1>
         <h2 className="role">Java Full Stack Developer</h2>
 
         {/* AWS Badges */}

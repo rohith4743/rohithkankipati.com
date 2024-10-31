@@ -1,24 +1,30 @@
-/* Header.css */
-
+/* Header Styles */
 .header {
-  background: linear-gradient(135deg, #4a90e2, #6a82fb);
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
   color: #fff;
   padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   text-align: center;
   position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
-/* Desktop Navigation Container */
+/* Desktop Navigation Container - Left and Right Alignment */
 .desktop-nav-container {
-  display: flex;
-  justify-content: space-between;
+  position: absolute;
+  top: 20px; /* Space from the top */
   width: 100%;
   max-width: 1200px;
+  display: flex;
+  justify-content: space-between; /* Align left and right sections */
   padding: 0 20px;
-  margin-bottom: 20px;
+  align-items: center;
 }
 
 .desktop-nav-left {
@@ -26,10 +32,12 @@
   gap: 20px;
 }
 
+/* Navigation Links */
 .nav-link {
   color: #fff;
   font-weight: 600;
   text-decoration: none;
+  font-size: 1.2rem !important;
   position: relative;
   transition: color 0.3s ease;
 }
@@ -38,8 +46,9 @@
   color: #ffba08;
 }
 
+/* Download Resume Button */
 .btn-download {
-  padding: 10px 20px;
+  padding: 8px 16px;
   background-color: #ffba08;
   color: #1a1a1a;
   font-weight: bold;
@@ -58,6 +67,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 80px; /* Space below the navigation pane */
+}
+
+/* Intro Text */
+.intro {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #ffba08;
 }
 
 .profile-image {
@@ -68,17 +86,13 @@
   margin-bottom: 10px;
 }
 
-.name {
-  font-size: 2rem;
-  font-weight: 700;
-}
-
 .role {
   font-size: 1.2rem;
   color: #ddd;
   margin-bottom: 10px;
 }
 
+/* AWS Badges */
 .badges-s {
   display: flex;
   gap: 15px;
@@ -95,6 +109,7 @@
   transform: scale(1.1);
 }
 
+/* Social Links */
 .social-links {
   display: flex;
   gap: 15px;
@@ -118,12 +133,10 @@
 }
 
 @media (max-width: 768px) {
-  /* Hide desktop nav on mobile */
   .desktop-nav-container {
     display: none;
   }
 
-  /* Show menu icon for mobile */
   .mobile-nav-toggle {
     display: flex;
     justify-content: flex-end;
@@ -139,7 +152,6 @@
     cursor: pointer;
   }
 
-  /* Mobile nav menu */
   .mobile-nav {
     display: flex;
     flex-direction: column;
