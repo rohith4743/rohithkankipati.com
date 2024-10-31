@@ -46,9 +46,9 @@ const Header = () => {
         <h2 className="role">Java Full Stack Developer</h2>
 
         {/* AWS Badges */}
-        <div className="badges">
-          <img src={AWSSAA} alt="AWS Solutions Architect" className="badge" />
-          <img src={AWSDeveloper} alt="AWS Developer Associate" className="badge" />
+        <div className="badges-s">
+          <img src={AWSSAA} alt="AWS Solutions Architect" className="badge-s" />
+          <img src={AWSDeveloper} alt="AWS Developer Associate" className="badge-s" />
         </div>
 
         {/* Social Links */}

@@ -79,19 +79,19 @@
   margin-bottom: 10px;
 }
 
-.badges {
+.badges-s {
   display: flex;
   gap: 15px;
   margin-bottom: 15px;
 }
 
-.badge {
+.badge-s {
   width: 40px;
   height: 40px;
   transition: transform 0.3s ease;
 }
 
-.badge:hover {
+.badge-s:hover {
   transform: scale(1.1);
 }
 
