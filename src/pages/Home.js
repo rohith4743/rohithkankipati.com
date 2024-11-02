@@ -9,12 +9,14 @@ import Education from '../components/Education';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Other from '../components/Other';
+import Certifications from '../components/Certificantions';
 
 function Home() {
   return (
     <div className="Home">
       <Header />
       <About />
+      <Certifications />
       
       <div className="main-content">
         <div className="left-column">

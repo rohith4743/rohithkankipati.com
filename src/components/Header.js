@@ -40,8 +40,52 @@ const Header = () => {
         </nav>
       )}
 
+      <div className='profile'>
+        <div className='row'>
+            <div className='col-12 col-lg-7 order-2 order-lg-1'>
+                <div className='part-1'>
+                  <p className="introduction">Hi, I am <span className='glitch russo-one-regular stroked-text'><span className='pink'>R</span>ohith Kankipati</span></p>
+                  <h2 className="role">Java Full Stack Developer</h2>
+
+
+                  {/* <div className="badges-s">
+                    <img src={AWSSAA} alt="AWS Solutions Architect" className="badge-s" />
+                    <img src={AWSDeveloper} alt="AWS Developer Associate" className="badge-s" />
+                  </div> */}
+
+                  <div className="social-links">
+                      <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faGithub} />
+                      </a>
+                      <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faLinkedin} />
+                      </a>
+                      <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faTwitter} />
+                      </a>
+                      <a href="mailto:your-email@example.com" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faEnvelope} />
+                      </a>
+                  </div>
+                </div>
+            </div>
+            
+            <div className='col-12 col-lg-5 order-1 order-lg-2'>
+
+              <img src={ProfilePic} alt="Profile" className="profile-image" />
+              {/* AWS Badges */}
+        
+            </div>
+            <div></div>
+
+          </div>
+      </div>
+
       {/* Profile Section */}
-      <div className="profile-section">
+      <div className="profile-section" hidden>
+
+        
+
         <p className="intro">Hi, I am Rohith Kankipati</p>
         <img src={ProfilePic} alt="Profile" className="profile-image" />
         <h2 className="role">Java Full Stack Developer</h2>

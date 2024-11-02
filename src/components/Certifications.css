@@ -1,0 +1,55 @@
+.certifications-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Full viewport width */
+    box-sizing: border-box;
+    padding: 3rem 1.5rem;
+    background-color: #f4f8fb;
+  }
+  
+  .certifications-title {
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  
+  .badges-container {
+    display: flex;
+    justify-content: center;
+    gap: 20%; /* Space between badges */
+  }
+  
+  .badge-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .badge-item a {
+    font-size: 0.9rem;
+    color: #0066cc;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+  }
+  
+  .badge-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .badge-cert {
+    max-width: 200px;
+    height: auto;
+  }
+  
+  .cert-name {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  
