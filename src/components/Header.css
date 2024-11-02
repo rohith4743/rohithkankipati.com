@@ -84,23 +84,6 @@
   margin-bottom: 10px;
 }
 
-/* AWS Badges */
-.badges-s {
-  display: flex;
-  gap: 15px;
-  margin-bottom: 15px;
-}
-
-.badge-s {
-  width: 40px;
-  height: 40px;
-  transition: transform 0.3s ease;
-}
-
-.badge-s:hover {
-  transform: scale(1.1);
-}
-
 /* Social Links */
 .social-links {
   display: flex;
@@ -183,24 +166,6 @@
   font-weight: 400;
   font-style: normal;
   text-transform: uppercase;
-}
-
-
-.glitch {
-  text-align: center;
-  color: cyan;
-  font-style: italic;
-  font-size: 5rem;
-  letter-spacing: 8px;
-  /* font-family: 'Press Start 2P'; */
-  font-weight: 400;
-  /*Create overlap*/
-  
-  margin: 0;
-  line-height: 0;
-  /*Animation*/
-  
-  animation: glitch1 2.5s infinite;
 }
 
 .glitch:nth-child(2) {
@@ -429,7 +394,24 @@
   .introduction {
     margin: auto;
     margin-top: 30px;
-    font-size: 3rem;
+    font-size: 2.5rem;
+  }
+
+  .glitch {
+    text-align: center;
+    color: cyan;
+    font-style: italic;
+    font-size: 4rem;
+    letter-spacing: 8px;
+    /* font-family: 'Press Start 2P'; */
+    font-weight: 400;
+    /*Create overlap*/
+    
+    margin: 0;
+    line-height: 0;
+    /*Animation*/
+    
+    animation: glitch1 2.5s infinite;
   }
 
 }
@@ -457,6 +439,23 @@
 } */
 
 @media (min-width: 992px) {
+
+  .glitch {
+    text-align: center;
+    color: cyan;
+    font-style: italic;
+    font-size: 5rem;
+    letter-spacing: 8px;
+    /* font-family: 'Press Start 2P'; */
+    font-weight: 400;
+    /*Create overlap*/
+    
+    margin: 0;
+    line-height: 0;
+    /*Animation*/
+    
+    animation: glitch1 2.5s infinite;
+  }
 
 
   .introduction {
