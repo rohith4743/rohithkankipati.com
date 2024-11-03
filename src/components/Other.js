@@ -15,9 +15,18 @@ const Other = () => {
         <div className="other-card">
           <h3><FontAwesomeIcon icon={faBook} /> Publications</h3>
           <ul>
-            <li>“Efficient Cloud-based Video Processing Techniques” – Published in IEEE Cloud Computing Conference, 2024</li>
-            <li>“Optimizing Backend Systems for Real-Time Applications” – Published in Journal of Software Engineering, 2023</li>
+            <li>
+              <a href="https://doi.org/10.1109/IEEEDATA.2024.3485026" target="_blank" rel="noopener noreferrer">
+                “Descriptor: Smart Event Face Dataset (SEFD)”
+              </a> – Published in IEEE Data Descriptions, 2024
+            </li>
+            <li>
+              <a href="http://www.jetir.org/papers/JETIR2004077.pdf" target="_blank" rel="noopener noreferrer">
+                “Image Composition Using Deep Painterly Harmonization”
+              </a> – Published in International Journal of Emerging Technologies and Innovative Research, 2020
+            </li>
           </ul>
+
         </div>
 
         {/* Languages Spoken */}
@@ -27,7 +36,7 @@ const Other = () => {
         </div>
 
         {/* LeetCode Performance */}
-        <div className="other-card leetcode-card">
+        <div className="other-card">
           <h3><FontAwesomeIcon icon={faTrophy} /> LeetCode Performance</h3>
           <ul>
             <li>Rating: 1950+</li>

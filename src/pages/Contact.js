@@ -68,9 +68,9 @@ const Contact = () => {
             <img src={img} alt="Contact Person" />
             <div className="contact-info">
               <h5>Contact Information</h5>
-              <p><FontAwesomeIcon icon={faEnvelope} /> yourname@example.com</p>
-              <p><FontAwesomeIcon icon={faPhone} /> +1 234 567 890</p>
-              <p><FontAwesomeIcon icon={faMapMarkerAlt} /> New York, NY</p>
+              <p><FontAwesomeIcon icon={faEnvelope} /> rkankipati86@gmail.com</p>
+              <p><FontAwesomeIcon icon={faPhone} /> +1 443 756 7469</p>
+              <p><FontAwesomeIcon icon={faMapMarkerAlt} /> Baltimore, MD</p>
             </div>
           </div>
 
