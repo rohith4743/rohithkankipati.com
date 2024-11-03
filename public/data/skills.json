@@ -1,13 +1,71 @@
 {
-    "Programming Languages": ["Java 11", "Java 8", "Python", "JavaScript", "TypeScript", "SQL"],
-    "Backend & API Development": ["Spring Boot", "Spring MVC", "Spring Cloud", "Spring Batch", "J2EE", "Struts", "Hibernate", "RESTful APIs"],
-    "Web & Frontend Technologies": ["HTML5", "CSS3", "JavaScript", "React", "Angular", "Bootstrap", "JSON", "XML"],
-    "Cloud & Infrastructure Technologies": ["AWS (EC2, S3, Lambda)", "GCP", "Terraform", "CloudFormation"],
-    "Databases": ["PostgreSQL", "MySQL", "Oracle", "MongoDB", "DynamoDB"],
-    "Distributed Systems & Messaging": ["Apache Kafka", "Redis", "AWS ElastiCache"],
-    "DevOps & CI/CD Tools": ["Jenkins", "GitLab", "GitHub Actions", "AWS CodeDeploy", "Docker", "Kubernetes"],
-    "Testing & Automation Tools": ["JUnit", "Mockito", "AssertJ"],
-    "Operating Systems & Scripting": ["Windows", "Linux", "Unix", "Shell Scripting"],
-    "Development Methodologies": ["Agile (SCRUM, Lean)", "SAFe"]
-  }
-  
+  "Programming Languages": [
+    { "name": "Java 11", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" },
+    { "name": "Java 8", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" },
+    { "name": "Python", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" },
+    { "name": "JavaScript", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" },
+    { "name": "TypeScript", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" },
+    { "name": "SQL", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" }
+  ],
+  "Backend & API Development": [
+    { "name": "Spring Boot", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" },
+    { "name": "Spring MVC", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" },
+    { "name": "Spring Cloud", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" },
+    { "name": "Spring Batch", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" },
+    { "name": "J2EE", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" },
+    { "name": "Struts", "path": "icons/struts-svgrepo-com.svg" },
+    { "name": "Hibernate", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hibernate/hibernate-original.svg" },
+    { "name": "RESTful APIs", "html": "<i class='fas fa-exchange-alt'></i>" }
+  ],
+  "Web & Frontend Technologies": [
+    { "name": "HTML5", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" },
+    { "name": "CSS3", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" },
+    { "name": "JavaScript", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" },
+    { "name": "React", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" },
+    { "name": "Angular", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" },
+    { "name": "Bootstrap", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" },
+    { "name": "JSON", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg" },
+    { "name": "XML", "html": "<i class='fas fa-code'></i>" }
+  ],
+  "Cloud & Infrastructure Technologies": [
+    { "name": "AWS (EC2, S3, Lambda)", "path": "icons/aws-svgrepo-com.svg" },
+    { "name": "GCP", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg" },
+    { "name": "Terraform", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg" },
+    { "name": "CloudFormation", "path": "icons/aws-cloudformation-svgrepo-com.svg" }
+  ],
+  "Databases": [
+    { "name": "PostgreSQL", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" },
+    { "name": "MySQL", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" },
+    { "name": "Oracle", "path": "icons/oracle-svgrepo-com.svg" },
+    { "name": "MongoDB", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" },
+    { "name": "DynamoDB", "path": "icons/aws-dynamodb-svgrepo-com.svg" }
+  ],
+  "Distributed Systems & Messaging": [
+    { "name": "Apache Kafka", "path": "icons/kafka-icon-svgrepo-com.svg" },
+    { "name": "Redis", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" },
+    { "name": "AWS ElastiCache", "path": "/path/to/elasticache-icon.svg" }
+  ],
+  "DevOps & CI/CD Tools": [
+    { "name": "Jenkins", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" },
+    { "name": "GitLab", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg" },
+    { "name": "GitHub Actions", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" },
+    { "name": "AWS CodeDeploy", "path": "icons/aws-codedeploy-svgrepo-com.svg" },
+    { "name": "Docker", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" },
+    { "name": "Kubernetes", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg" }
+  ],
+  "Testing & Automation Tools": [
+    { "name": "JUnit", "path": "icons/JUnit.png" },
+    { "name": "Mockito", "path": "icons/JUnit.png" },
+    { "name": "AssertJ", "path": "icons/JUnit.png" }
+  ],
+  "Operating Systems & Scripting": [
+    { "name": "Windows", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows8/windows8-original.svg" },
+    { "name": "Linux", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" },
+    { "name": "Unix", "html": "<i class='fas fa-terminal'></i>" },
+    { "name": "Shell Scripting", "html": "<i class='fas fa-terminal'></i>" }
+  ],
+  "Development Methodologies": [
+    { "name": "Agile (SCRUM, Lean)", "html": "<i class='fas fa-users'></i>" },
+    { "name": "SAFe", "html": "<i class='fas fa-users'></i>" }
+  ]
+}

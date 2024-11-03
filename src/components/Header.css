@@ -401,7 +401,7 @@
     text-align: center;
     color: cyan;
     font-style: italic;
-    font-size: 3.5rem;
+    font-size: clamp(1rem, 10vw, 5rem);
     letter-spacing: 8px;
     /* font-family: 'Press Start 2P'; */
     font-weight: 400;

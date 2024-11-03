@@ -3,7 +3,7 @@
         "title": "Research Assistant",
         "company": "University of Maryland, Baltimore County",
         "location": "Baltimore, MD",
-        "dates": "Aug 2023 \u2013 May 2024",
+        "dates": "Aug 2023 – May 2024",
         "description": [
             "Developed a scalable cloud-based platform using <b>Java</b>, <b>AWS Lambda</b>, and <b>S3</b> for video processing and object detection, integrating <b>machine learning models</b> for analytics.",
             "Built front-end dashboards using <b>React</b> and <b>JavaScript</b>, improving user engagement through interactive visualizations.",
@@ -14,13 +14,18 @@
             "Focused on memory management and performance optimization, ensuring low-latency responses.",
             "Employed testing tools like <b>JUnit</b> and <b>Mockito</b> for robust code verification and high test coverage.",
             "Maintained CI/CD pipelines using <b>GitLab</b>, ensuring consistent code integration, monitoring through <b>Splunk</b>, and smooth deployment across environments."
+        ],
+        "skills": [
+            "Java", "AWS Lambda", "S3", "Machine Learning", "React", "JavaScript", 
+            "DynamoDB", "Amazon RDS", "AWS ECS", "SageMaker", "CloudWatch", "SNS", 
+            "Spring Boot", "SDLC", "Kafka", "Redis", "JUnit", "Mockito", "GitLab", "Splunk"
         ]
     },
     {
         "title": "Software Development Engineer (Specialist Programmer)",
         "company": "Infosys Ltd.",
         "location": "Hyderabad, India",
-        "dates": "Dec 2021 \u2013 Aug 2022",
+        "dates": "Dec 2021 – Aug 2022",
         "description": [
             "Built RESTful APIs using <b>Spring Boot</b> and <b>Java</b>, enhancing backend architecture and achieving efficient response times through <b>Redis</b> caching and query optimization.",
             "Developed and deployed a multi-language compilation engine using <b>Java Spring Boot</b>, <b>Docker</b>, <b>AWS ECS</b>, and <b>Redis Streams</b>, optimizing the system for handling large-scale coding competitions and ensuring robust microservices integration.",
@@ -32,13 +37,20 @@
             "Implemented monitoring and logging with <b>AWS CloudWatch</b> and <b>AWS CloudTrail</b>, improving observability and proactive issue resolution.",
             "Actively contributed in Agile teams, utilizing <b>SCRUM</b> and <b>Lean</b> methodologies for feature delivery and project milestones.",
             "Utilized <b>Apache Kafka</b> for building real-time telemetry systems, enhancing data analysis and system activity tracking."
+        ],
+        "skills": [
+            "Spring Boot", "Java", "Redis", "Docker", "AWS ECS", "Redis Streams", 
+            "Hibernate", "Spring Data", "PL/SQL", "Oracle", "React", "Bootstrap", 
+            "JavaScript", "AWS SQS", "ElastiCache", "OAuth2", "Spring Security", 
+            "Jenkins", "Maven", "Kubernetes", "AWS CodeDeploy", "CloudWatch", "CloudTrail",
+            "SCRUM", "Lean", "Apache Kafka"
         ]
     },
     {
         "title": "Junior Software Developer",
         "company": "Infosys Ltd.",
         "location": "Hyderabad, India",
-        "dates": "Nov 2020 \u2013 Dec 2021",
+        "dates": "Nov 2020 – Dec 2021",
         "description": [
             "Built and integrated REST APIs using <b>Java Spring Boot</b> with <b>React</b> and <b>RxJS</b>, enabling seamless client-server communication and improved system performance.",
             "Developed and deployed telemetry systems using <b>Kafka</b> and <b>AWS Lambda</b> for real-time contest activity tracking, storing results in <b>Amazon RDS</b> for quick reporting.",
@@ -50,13 +62,19 @@
             "Collaborated with teams using <b>Git</b> for version control and code integration, ensuring smooth collaboration and delivery.",
             "Built secure systems with <b>OAuth2</b> integration and implemented monitoring using <b>AWS CloudWatch</b>, enhancing the overall system's reliability.",
             "Optimized database interactions with <b>Hibernate</b>, <b>Spring Data</b> and <b>MongoDB</b>, enhancing performance and system scalability."
+        ],
+        "skills": [
+            "Java Spring Boot", "React", "RxJS", "Kafka", "AWS Lambda", "Amazon RDS",
+            "Terraform", "Kubernetes", "Jenkins", "Maven", "AWS CodeDeploy", "Redis", 
+            "JUnit", "Mockito", "SCRUM", "Git", "OAuth2", "CloudWatch", "Hibernate",
+            "Spring Data", "MongoDB"
         ]
     },
     {
         "title": "Software Engineer Intern",
         "company": "DBAce Technologies Pvt. Ltd.",
         "location": "Hyderabad, India",
-        "dates": "Jun 2020 \u2013 Oct 2020",
+        "dates": "Jun 2020 – Oct 2020",
         "description": [
             "Developed SOAP-based web services using <b>Java</b> and <b>Struts</b>, integrating with legacy systems and enterprise applications.",
             "Documented processes and system architecture, ensuring compliance with <b>SAFe</b> methodologies for effective project management.",
@@ -68,6 +86,10 @@
             "Automated builds and deployments using <b>Jenkins</b> and <b>Docker</b>, ensuring efficient rollouts.",
             "Implemented <b>OAuth</b> for secure API access and protected sensitive application data.",
             "Gained hands-on experience with RESTful APIs, enhancing integration and client-side interaction."
+        ],
+        "skills": [
+            "Java", "Struts", "SAFe", "HTML", "CSS", "Bootstrap", "J2EE", 
+            "Git", "SCRUM", "Postgres", "SQL", "Jenkins", "Docker", "OAuth", "RESTful APIs"
         ]
     }
 ]

@@ -20,7 +20,13 @@
   .badges-container {
     display: flex;
     justify-content: center;
-    gap: 20%; /* Space between badges */
+    gap: 20%; 
+  }
+
+  @media (max-width: 768px) {
+    .badges-container {
+      gap: 10%; 
+    }
   }
   
   .badge-item {
