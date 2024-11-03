@@ -72,8 +72,13 @@
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
+
+  .skills-section {
+    padding: 1rem 0.5rem;
+  }
+
   .skills-container {
-    padding: 1rem;
+    padding: 1rem 0.5rem;
   }
 
   .skills-category h3 {

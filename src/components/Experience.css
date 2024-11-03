@@ -117,7 +117,7 @@
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .experience-section {
-    padding: 1.5rem;
+    padding: 1.5rem 0.5rem;
   }
 
   .experience-card {

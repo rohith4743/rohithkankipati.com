@@ -83,7 +83,7 @@
   /* Responsive adjustments */
   @media (max-width: 768px) {
     .projects-section {
-      padding: 1.5rem;
+      padding: 1rem 0.5rem;
     }
   
     .project-card {

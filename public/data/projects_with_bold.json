@@ -7,12 +7,14 @@
             "Utilized <b>AWS S3</b> for frontend hosting, <b>AWS CloudFront</b> for content delivery, and <b>AWS Route 53</b> for domain management, ensuring fast and secure global access.",
             "Deployed backend services on AWS EC2 using Jenkins for CI/CD, and managed infrastructure with AWS CloudFormation, including security groups, VPC, Elastic Load Balancing (ALB), and Amazon RDS with Postgres for efficient and scalable database management."
         ],
+        "summary": "A robust e-commerce platform for a liquor store, featuring advanced search capabilities, seamless frontend-backend integration, and AWS-powered deployment for a fast, secure, and scalable shopping experience.",
         "backendLink": "https://github.com/yourusername/liquor-store-backend",
         "frontendLink": "https://github.com/yourusername/liquor-store-frontend",
         "projectLink": "https://liquor-store.rohithkankipati.com"
     },
     {
         "title": "Loan Application Platform",
+        "summary": "A comprehensive loan application platform enabling secure application processing, real-time notifications, and scalable backend deployment on Google Cloud, optimized for high availability and performance.",
         "description": [
             "Developed a web-based platform using <b>React</b> to allow users to fill out loan applications with <b>Google Maps API</b> for address autofill and Google reCAPTCHA for verification.",
             "Built a secure portal for users to view and manage applications, using <b>Amazon Aurora</b> for storing application data and <b>Kafka</b> for real-time updates.",
@@ -25,6 +27,7 @@
     },
     {
         "title": "Task Management Application",
+        "summary": "A task scheduling application with real-time notifications, enabling users to manage daily tasks effectively with a responsive Angular frontend and a scalable Java Spring Boot backend.",
         "description": [
             "Developed a task scheduling platform using <b>Angular</b> for the frontend and <b>Java Spring Boot</b> for the backend, enabling users to create, update, and manage daily tasks.",
             "Built a real-time notification system using WebSocket for instant updates, ensuring a seamless user experience.",

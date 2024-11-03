@@ -21,12 +21,17 @@ const Projects = () => {
         {projects.map((project, index) => (
           <div className="project-card" key={index}>
             <h3>{project.title}</h3>
-            <ul className="project-description">
+            <ul className="project-description" hidden>
               {project.description.map((line, i) => (
                 <li key={i} dangerouslySetInnerHTML={{ __html: line }} />
 
               ))}
             </ul>
+
+            <div className='project-description'>
+              {project.summary}
+            </div>
+
             <div className="project-links">
               {project.projectLink && (
                 <a href={project.projectLink} target="_blank" rel="noopener noreferrer" className="project-link">
