@@ -8,8 +8,8 @@
             "Utilized AWS S3 for frontend hosting, AWS CloudFront for content delivery, and AWS Route 53 for domain management, ensuring fast and secure global access.",
             "Deployed backend services on AWS EC2 using Jenkins for CI/CD, and managed infrastructure with AWS CloudFormation, including security groups, VPC, Elastic Load Balancing (ALB), and Amazon RDS with Postgres for efficient and scalable database management."
         ],
-        "backendLink": "https://github.com/yourusername/liquor-store-backend",
-        "frontendLink": "https://github.com/yourusername/liquor-store-frontend",
+        "backendLink": "https://github.com/rohith4743/inventory_backend",
+        "frontendLink": "https://github.com/rohith4743/liquor-store-frontend",
         "projectLink": "https://liquor-store.rohithkankipati.com"
     },
     {
@@ -23,7 +23,7 @@
         ],
         "backendLink": null,
         "frontendLink": null,
-        "projectLink": "https://loan-platform.rohithkankipati.com"
+        "projectLink": null
     },
     {
         "title": "Task Management Application",
@@ -33,8 +33,8 @@
             "Built a real-time notification system using WebSocket for instant updates, ensuring a seamless user experience.",
             "Used MongoDB for task data storage, providing scalable and efficient management of user tasks and schedules."
         ],
-        "backendLink": "https://github.com/yourusername/task-manager-backend",
-        "frontendLink": "https://github.com/yourusername/task-manager-frontend",
-        "projectLink": "https://task-manager.rohithkankipati.com"
+        "backendLink": "https://github.com/rohith4743/sked_backend",
+        "frontendLink": "https://github.com/rohith4743/sked",
+        "projectLink": null
     }
 ]

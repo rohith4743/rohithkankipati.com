@@ -54,16 +54,16 @@ const Header = () => {
                   </div> */}
 
                   <div className="social-links">
-                      <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                      <a href="https://github.com/rohith4743" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faGithub} />
                       </a>
-                      <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+                      <a href="https://www.linkedin.com/in/rohithkankipati/" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faLinkedin} />
                       </a>
-                      <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
+                      <a href="https://x.com/rohith_4743" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faTwitter} />
                       </a>
-                      <a href="mailto:your-email@example.com" target="_blank" rel="noopener noreferrer">
+                      <a href="mailto:rkankipati86@gmail.com" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faEnvelope} />
                       </a>
                   </div>

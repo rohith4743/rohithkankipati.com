@@ -24,7 +24,6 @@ const Projects = () => {
             <ul className="project-description" hidden>
               {project.description.map((line, i) => (
                 <li key={i} dangerouslySetInnerHTML={{ __html: line }} />
-
               ))}
             </ul>
 
