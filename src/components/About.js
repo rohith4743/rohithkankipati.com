@@ -19,7 +19,7 @@ const About = () => {
             <FontAwesomeIcon icon={faBriefcase} className="icon" />
             <div>
               <h4>Experience</h4>
-              <p>4+ Years</p>
+              <p>5+ Years</p>
             </div>
           </div>
           <div className="detail-item">
