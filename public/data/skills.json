@@ -5,63 +5,129 @@
     { "name": "Python", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" },
     { "name": "JavaScript", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" },
     { "name": "TypeScript", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" },
-    { "name": "SQL", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" }
+    { "name": "SQL", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" },
+    { "name": "J2EE", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" }
   ],
-  "Backend & API Development": [
+  "Spring Framework": [
     { "name": "Spring Boot", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" },
     { "name": "Spring MVC", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" },
     { "name": "Spring Cloud", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" },
+    { "name": "Spring Security", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" },
     { "name": "Spring Batch", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" },
-    { "name": "J2EE", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" },
+    { "name": "Spring AOP", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" }
+  ],
+  "Java Technologies": [
+    { "name": "JDBC", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" },
+    { "name": "JPA", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" },
+    { "name": "JMS", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" },
+    { "name": "Servlets", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" },
+    { "name": "JSP", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" },
     { "name": "Struts", "path": "icons/struts-svgrepo-com.svg" },
-    { "name": "Hibernate", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hibernate/hibernate-original.svg" },
-    { "name": "RESTful APIs", "html": "<i class='fas fa-exchange-alt'></i>" }
+    { "name": "Hibernate", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hibernate/hibernate-original.svg" }
   ],
-  "Web & Frontend Technologies": [
-    { "name": "HTML5", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" },
-    { "name": "CSS3", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" },
-    { "name": "JavaScript", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" },
-    { "name": "React", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" },
-    { "name": "Angular", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" },
-    { "name": "Bootstrap", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" },
-    { "name": "JSON", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg" },
-    { "name": "XML", "html": "<i class='fas fa-code'></i>" }
-  ],
-  "Cloud & Infrastructure Technologies": [
-    { "name": "AWS (EC2, S3, Lambda)", "path": "icons/aws-svgrepo-com.svg" },
-    { "name": "GCP", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg" },
-    { "name": "Terraform", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg" },
-    { "name": "CloudFormation", "path": "icons/aws-cloudformation-svgrepo-com.svg" }
+  "Web Services": [
+    { "name": "RESTful APIs", "html": "<i class='fas fa-exchange-alt'></i>" },
+    { "name": "SOAP", "path": "devicon-soap-plain" },
+    { "name": "Microservice Architecture", "path": "devicon-microservices-plain" },
+    { "name": "WebSocket", "path": "devicon-websocket-plain" }
   ],
   "Databases": [
     { "name": "PostgreSQL", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" },
     { "name": "MySQL", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" },
     { "name": "Oracle", "path": "icons/oracle-svgrepo-com.svg" },
     { "name": "MongoDB", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" },
+    { "name": "Cassandra", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cassandra/cassandra-original.svg" },
+    { "name": "Elasticsearch", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/elasticsearch/elasticsearch-original.svg" },
     { "name": "DynamoDB", "path": "icons/aws-dynamodb-svgrepo-com.svg" }
   ],
-  "Distributed Systems & Messaging": [
-    { "name": "Apache Kafka", "path": "icons/kafka-icon-svgrepo-com.svg" },
-    { "name": "Redis", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" },
-    { "name": "AWS ElastiCache", "path": "/path/to/elasticache-icon.svg" }
+  "Cloud & DevOps": [
+    { "name": "AWS", "path": "icons/aws-svgrepo-com.svg" },
+    { "name": "Docker", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" },
+    { "name": "Kubernetes", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg" },
+    { "name": "Terraform", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg" },
+    { "name": "GCP", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg" },
+    { "name": "Azure", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" },
+    { "name": "Apache Tomcat", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tomcat/tomcat-original.svg" }
   ],
-  "DevOps & CI/CD Tools": [
+  "AWS Skills": [
+    { "name": "Lambda", "path": "icons/Arch_AWS-Lambda_64.svg" },
+    { "name": "EC2", "path": "icons/Arch_Amazon-EC2_64.svg" },
+    { "name": "S3", "path": "icons/aws-s3-svgrepo-com.svg" },
+    { "name": "ECS", "path": "icons/Arch_Amazon-Elastic-Container-Service_64.svg" },
+    { "name": "RDS", "path": "icons/Arch_Amazon-RDS_64.svg" },
+    { "name": "DynamoDB", "path": "icons/aws-dynamodb-svgrepo-com.svg" },
+    { "name": "Aurora", "path": "icons/Arch_Amazon-Aurora_64.svg" },
+    { "name": "CloudFront", "path": "icons/Arch_Amazon-CloudFront_64.svg" },
+    { "name": "Route 53", "path": "icons/Arch_Amazon-Route-53_64.svg" },
+    { "name": "API Gateway", "path": "devicon-apigateway-plain" },
+    { "name": "SNS", "path": "icons/Arch_Amazon-Simple-Notification-Service_64.svg" },
+    { "name": "SQS", "path": "icons/Arch_Amazon-Simple-Queue-Service_64.svg" },
+    { "name": "VPC", "path": "icons/Arch_Amazon-Virtual-Private-Cloud_64.svg" },
+    { "name": "ASG", "path": "devicon-asg-plain" },
+    { "name": "ALB", "path": "devicon-alb-plain" },
+    { "name": "CloudWatch", "path": "icons/aws-cloudwatch-svgrepo-com.svg" },
+    { "name": "CloudTrail", "path": "devicon-cloudtrail-plain" },
+    { "name": "CloudFormation", "path": "icons/aws-cloudformation-svgrepo-com.svg" },
+    { "name": "CodeDeploy", "path": "icons/aws-codedeploy-svgrepo-com.svg" }
+  ],
+  "Web Technologies": [
+    { "name": "HTML5", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" },
+    { "name": "CSS3", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" },
+    { "name": "JavaScript", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" },
+    { "name": "TypeScript", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" },
+    { "name": "JSON", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg" },
+    { "name": "XML", "html": "<i class='fas fa-code'></i>" },
+    { "name": "AJAX", "path": "devicon-ajax-plain" },
+    { "name": "jQuery", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original.svg" },
+    { "name": "React", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" },
+    { "name": "Angular", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" },
+    { "name": "Bootstrap", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" },
+    { "name": "GraphQL", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/graphql/graphql-plain.svg" },
+    { "name": "Node.js", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" }
+  ],
+  "Messaging & Streaming": [
+    { "name": "Apache Kafka", "path": "icons/kafka-icon-svgrepo-com.svg" },
+    { "name": "RabbitMQ", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rabbitmq/rabbitmq-original.svg" },
+    { "name": "Redis", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" },
+    { "name": "AWS ElastiCache", "path": "icons/Arch_Amazon-ElastiCache_64.svg" },
+    { "name": "IBM MQ", "path": "devicon-ibmmq-plain" },
+    { "name": "Active MQ", "path": "devicon-activemq-plain" }
+  ],
+  "CI/CD & Build Tools": [
     { "name": "Jenkins", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" },
     { "name": "GitLab", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg" },
+    { "name": "Maven", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/maven/maven-original.svg" },
+    { "name": "Gradle", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gradle/gradle-original.svg" },
+    { "name": "SVN", "path": "devicon-svn-plain" },
+    { "name": "ANT", "path": "devicon-ant-plain" },
     { "name": "GitHub Actions", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" },
-    { "name": "AWS CodeDeploy", "path": "icons/aws-codedeploy-svgrepo-com.svg" },
-    { "name": "Docker", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" },
-    { "name": "Kubernetes", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg" }
+    { "name": "AWS CodeDeploy", "path": "icons/aws-codedeploy-svgrepo-com.svg" }
   ],
-  "Testing & Automation Tools": [
+  "Monitoring & Logging": [
+    { "name": "Datadog", "path": "devicon-datadog-plain" },
+    { "name": "New Relic", "path": "devicon-newrelic-plain" },
+    { "name": "Splunk", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/splunk/splunk-original-wordmark.svg" },
+    { "name": "Log4J", "path": "devicon-log4j-plain" },
+    { "name": "SonarQube", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sonarqube/sonarqube-original.svg" }
+  ],
+  "Testing Tools": [
     { "name": "JUnit", "path": "icons/JUnit.png" },
     { "name": "Mockito", "path": "icons/JUnit.png" },
     { "name": "AssertJ", "path": "icons/JUnit.png" }
+  ],
+  "Project Collaboration": [
+    { "name": "Confluence", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/confluence/confluence-original.svg" },
+    { "name": "Jira", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg" }
+  ],
+  "Security & Authentication": [
+    { "name": "OAuth2", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oauth/oauth-original.svg" },
+    { "name": "JWT", "path": "devicon-jwt-plain" }
   ],
   "Operating Systems & Scripting": [
     { "name": "Windows", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows8/windows8-original.svg" },
     { "name": "Linux", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" },
     { "name": "Unix", "html": "<i class='fas fa-terminal'></i>" },
+    { "name": "Mac", "path": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apple/apple-original.svg" },
     { "name": "Shell Scripting", "html": "<i class='fas fa-terminal'></i>" }
   ],
   "Development Methodologies": [

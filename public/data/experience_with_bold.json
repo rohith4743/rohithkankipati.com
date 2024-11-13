@@ -1,95 +1,79 @@
 [
     {
-        "title": "Research Assistant",
-        "company": "University of Maryland, Baltimore County",
+        "title": "Java Full Stack Developer",
+        "company": "University of Maryland Medical System",
         "location": "Baltimore, MD",
-        "dates": "Aug 2023 – May 2024",
+        "dates": "Oct 2023 – Present",
         "description": [
-            "Developed a scalable cloud-based platform using <b>Java</b>, <b>AWS Lambda</b>, and <b>S3</b> for video processing and object detection, integrating <b>machine learning models</b> for analytics.",
-            "Built front-end dashboards using <b>React</b> and <b>JavaScript</b>, improving user engagement through interactive visualizations.",
-            "Established data pipelines with <b>DynamoDB</b>, <b>Amazon RDS</b>, and <b>AWS S3</b>, ensuring efficient data management and retrieval.",
-            "Automated model deployment with <b>AWS ECS</b>, <b>SageMaker</b>, <b>CloudWatch</b>, and <b>SNS</b>, enabling real-time alerts and auto-scaling.",
-            "Created backend services using <b>Spring Boot</b>, ensuring secure and scalable API development in alignment with full <b>SDLC</b> processes, from requirements analysis to deployment and maintenance.",
-            "Leveraged <b>Kafka</b> and <b>Redis</b> for real-time message-driven processing and caching, improving efficiency.",
-            "Focused on memory management and performance optimization, ensuring low-latency responses.",
-            "Employed testing tools like <b>JUnit</b> and <b>Mockito</b> for robust code verification and high test coverage.",
-            "Maintained CI/CD pipelines using <b>GitLab</b>, ensuring consistent code integration, monitoring through <b>Splunk</b>, and smooth deployment across environments."
+            "Led the design and implementation of <b>Microservices</b> architecture, transitioning from a monolithic system to improve scalability and deployment efficiency using <b>Spring Boot</b>.",
+            "Developed and optimized serverless workflows using <b>AWS Lambda</b>, setting up real-time monitoring with <b>AWS CloudWatch</b> for better performance tracking.",
+            "Built responsive and interactive user interfaces with <b>React</b> and <b>Angular</b>, enhancing user experience and integrating seamless data communication via APIs.",
+            "Automated deployment and CI/CD processes with <b>Jenkins</b> and <b>Docker</b>, ensuring efficient and reliable software delivery.",
+            "Implemented comprehensive data processing and logging mechanisms using <b>Apache Kafka</b> and <b>Log4j</b>, enabling effective monitoring and analytics."
         ],
         "skills": [
-            "Java", "AWS Lambda", "S3", "Machine Learning", "React", "JavaScript", 
-            "DynamoDB", "Amazon RDS", "AWS ECS", "SageMaker", "CloudWatch", "SNS", 
-            "Spring Boot", "SDLC", "Kafka", "Redis", "JUnit", "Mockito", "GitLab", "Splunk"
+            "AWS Lambda", "Spring Boot", "Microservices", "CloudWatch", "React", "Angular",
+            "Jenkins", "Docker", "Apache Kafka", "Log4j", "MongoDB", "JIRA", "Flux Architecture",
+            "PCF", "Java 8", "Stream API", "LESS/SCSS", "Node.js", "Cassandra", "JMS", "J2EE",
+            "Spring MVC", "ETL", "XML", "XSLT", "Informatica", "Agile", "SCRUM"
         ]
     },
     {
-        "title": "Software Development Engineer (Specialist Programmer)",
+        "title": "Java Full Stack Developer",
+        "company": "Piedmont Airlines",
+        "location": "Salisbury, MD",
+        "dates": "Nov 2022 – Sep 2023",
+        "description": [
+            "Worked in an <b>Agile</b> environment, contributing to sprint planning and daily stand-ups, ensuring effective team collaboration and project delivery.",
+            "Designed and developed a validation service on the <b>Spring MVC</b> framework, integrating it with a SQL database and building a responsive UI feature.",
+            "Implemented and managed <b>Kubernetes</b> for container orchestration, ensuring high availability and scalability of distributed applications.",
+            "Defined resources and automated infrastructure using <b>Azure Resource Manager (ARM)</b> templates, optimizing resource provisioning.",
+            "Developed and deployed <b>Spring Boot Microservices</b>, creating and consuming REST APIs to support modular and scalable system architecture."
+        ],
+        "skills": [
+            "Agile", "Spring MVC", "SQL", "Kubernetes", "Azure Resource Manager (ARM)", 
+            "Spring Boot", "Microservices", "REST API", "Jira", "Apache Kafka", "Oracle", 
+            "Jenkins", "Soap UI", "HTML", "Bootstrap", "CSS", "JavaScript", "AngularJS", "XML"
+        ]
+    },
+    {
+        "title": "Specialist Programmer",
         "company": "Infosys Ltd.",
         "location": "Hyderabad, India",
-        "dates": "Dec 2021 – Aug 2022",
+        "dates": "Nov 2020 – Aug 2022",
         "description": [
-            "Built RESTful APIs using <b>Spring Boot</b> and <b>Java</b>, enhancing backend architecture and achieving efficient response times through <b>Redis</b> caching and query optimization.",
-            "Developed and deployed a multi-language compilation engine using <b>Java Spring Boot</b>, <b>Docker</b>, <b>AWS ECS</b>, and <b>Redis Streams</b>, optimizing the system for handling large-scale coding competitions and ensuring robust microservices integration.",
-            "Optimized database interactions using <b>Hibernate</b>, <b>Spring Data</b>, and <b>PL/SQL</b> with <b>Oracle</b>, enhancing performance and managing complex database operations for scalable and efficient system architecture.",
-            "Designed and implemented user interfaces with <b>React</b>, <b>Bootstrap</b>, and <b>JavaScript</b>, ensuring cross-device compatibility and an improved user experience.",
-            "Managed task queues and caching mechanisms using <b>AWS SQS</b> and <b>ElastiCache</b>, supporting distributed architecture and scalable system operations.",
-            "Secured APIs with <b>OAuth2</b> and <b>Spring Security</b>, providing role-based access control and API protection.",
-            "Automated deployment pipelines with <b>Jenkins</b>, <b>Maven</b>, <b>Kubernetes</b>, UNIX shell scripting, and <b>AWS CodeDeploy</b>, streamlining CI/CD practices for efficient software delivery.",
-            "Implemented monitoring and logging with <b>AWS CloudWatch</b> and <b>AWS CloudTrail</b>, improving observability and proactive issue resolution.",
-            "Actively contributed in Agile teams, utilizing <b>SCRUM</b> and <b>Lean</b> methodologies for feature delivery and project milestones.",
-            "Utilized <b>Apache Kafka</b> for building real-time telemetry systems, enhancing data analysis and system activity tracking."
+            "Developed and optimized <b>RESTful APIs</b> using <b>Spring Boot</b> and <b>Java</b>, improving response times with <b>Redis</b> caching and query optimization.",
+            "Led the design and deployment of a multi-language compilation engine with <b>Docker</b>, <b>AWS ECS</b>, and <b>Redis Streams</b> for large-scale coding competitions.",
+            "Migrated backend services from monolithic architecture to <b>microservices</b>, enhancing scalability and performance in a distributed cloud environment.",
+            "Automated CI/CD pipelines using <b>Jenkins</b>, <b>Kubernetes</b>, and <b>AWS CodeDeploy</b>, streamlining software delivery and infrastructure management.",
+            "Implemented security and monitoring solutions with <b>OAuth2</b>, <b>Spring Security</b>, and <b>AWS CloudWatch</b>, ensuring API protection and system observability."
         ],
         "skills": [
-            "Spring Boot", "Java", "Redis", "Docker", "AWS ECS", "Redis Streams", 
-            "Hibernate", "Spring Data", "PL/SQL", "Oracle", "React", "Bootstrap", 
-            "JavaScript", "AWS SQS", "ElastiCache", "OAuth2", "Spring Security", 
-            "Jenkins", "Maven", "Kubernetes", "AWS CodeDeploy", "CloudWatch", "CloudTrail",
-            "SCRUM", "Lean", "Apache Kafka"
+            "RESTful APIs", "Spring Boot", "Java", "Redis", "Docker", "AWS ECS", "Redis Streams",
+            "Microservices", "Jenkins", "Kubernetes", "AWS CodeDeploy", "OAuth2", "Spring Security",
+            "AWS CloudWatch", "CloudTrail", "Agile", "SCRUM", "Lean", "Git", "Hibernate", 
+            "Spring Data", "PL/SQL", "Oracle", "React", "Bootstrap", "JavaScript", "AWS SQS",
+            "ElastiCache", "Kafka", "AWS Lambda", "Amazon RDS", "JUnit", "Mockito", "MongoDB"
         ]
     },
     {
-        "title": "Junior Software Developer",
-        "company": "Infosys Ltd.",
+        "title": "Java Full Stack Developer",
+        "company": "Experian",
         "location": "Hyderabad, India",
-        "dates": "Nov 2020 – Dec 2021",
+        "dates": "Sep 2018 – Oct 2020",
         "description": [
-            "Built and integrated REST APIs using <b>Java Spring Boot</b> with <b>React</b> and <b>RxJS</b>, enabling seamless client-server communication and improved system performance.",
-            "Developed and deployed telemetry systems using <b>Kafka</b> and <b>AWS Lambda</b> for real-time contest activity tracking, storing results in <b>Amazon RDS</b> for quick reporting.",
-            "Automated infrastructure provisioning and deployment pipelines with <b>Terraform</b>, <b>Kubernetes</b>, <b>Jenkins</b>, UNIX, <b>Maven</b>, and <b>AWS CodeDeploy</b>, streamlining IaC practices for efficient cloud infrastructure setup and management.",
-            "Improved API performance through <b>Redis</b> caching and SQL query optimization, achieving sub-50ms response times.",
-            "Spearheaded the migration of backend services from a monolithic architecture to a microservices-based system, enhancing scalability and system flexibility.",
-            "Conducted automated testing with <b>JUnit</b> and <b>Mockito</b>, achieving high test coverage and reducing post-deployment issues.",
-            "Engaged in Agile development practices, participating in <b>SCRUM</b> sprints for consistent and iterative development.",
-            "Collaborated with teams using <b>Git</b> for version control and code integration, ensuring smooth collaboration and delivery.",
-            "Built secure systems with <b>OAuth2</b> integration and implemented monitoring using <b>AWS CloudWatch</b>, enhancing the overall system's reliability.",
-            "Optimized database interactions with <b>Hibernate</b>, <b>Spring Data</b> and <b>MongoDB</b>, enhancing performance and system scalability."
+            "Designed and developed scalable <b>Microservices</b> and web applications using <b>Java</b> and <b>Spring Framework</b>, enhancing data management and integration efficiency.",
+            "Utilized <b>Hibernate</b> ORM to map data from MVC models to <b>Oracle</b> relational schema, optimizing database interactions and performance.",
+            "Implemented asynchronous messaging with <b>JMS</b> and real-time communication using <b>Socket.IO</b>, <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b> for dynamic front-end functionality.",
+            "Developed and managed <b>Cassandra</b> clusters and automated server provisioning on <b>EC2</b> using Chef, ensuring robust infrastructure.",
+            "Actively participated in <b>SCRUM</b> practices, contributing to pair programming, maintaining data accuracy with JSON parsers, and performing performance testing with <b>JMeter</b>."
         ],
         "skills": [
-            "Java Spring Boot", "React", "RxJS", "Kafka", "AWS Lambda", "Amazon RDS",
-            "Terraform", "Kubernetes", "Jenkins", "Maven", "AWS CodeDeploy", "Redis", 
-            "JUnit", "Mockito", "SCRUM", "Git", "OAuth2", "CloudWatch", "Hibernate",
-            "Spring Data", "MongoDB"
-        ]
-    },
-    {
-        "title": "Software Engineer Intern",
-        "company": "DBAce Technologies Pvt. Ltd.",
-        "location": "Hyderabad, India",
-        "dates": "Jun 2020 – Oct 2020",
-        "description": [
-            "Developed SOAP-based web services using <b>Java</b> and <b>Struts</b>, integrating with legacy systems and enterprise applications.",
-            "Documented processes and system architecture, ensuring compliance with <b>SAFe</b> methodologies for effective project management.",
-            "Created responsive web pages using <b>HTML</b>, <b>CSS</b>, and <b>Bootstrap</b>, enhancing multi-device user experience.",
-            "Built and monitored APIs using <b>J2EE</b>, ensuring efficient service integration and communication.",
-            "Collaborated using <b>Git</b> for version control, supporting efficient code integration.",
-            "Participated in <b>SCRUM</b> sprints, contributing to feature planning and timely delivery.",
-            "Optimized database systems using <b>Postgres</b> and SQL tuning, improving data management capabilities.",
-            "Automated builds and deployments using <b>Jenkins</b> and <b>Docker</b>, ensuring efficient rollouts.",
-            "Implemented <b>OAuth</b> for secure API access and protected sensitive application data.",
-            "Gained hands-on experience with RESTful APIs, enhancing integration and client-side interaction."
-        ],
-        "skills": [
-            "Java", "Struts", "SAFe", "HTML", "CSS", "Bootstrap", "J2EE", 
-            "Git", "SCRUM", "Postgres", "SQL", "Jenkins", "Docker", "OAuth", "RESTful APIs"
+            "Microservices", "Java", "Spring Framework", "Hibernate", "Oracle", "JMS", "Socket.IO",
+            "HTML", "CSS", "JavaScript", "Cassandra", "EC2", "Chef", "SCRUM", "JUnit", "JSON",
+            "Node.js", "JAX-WS", "SOAP", "JMeter", "Git", "GitHub", "CVS", "Bitbucket", "SVN",
+            "Service Oriented Architecture (SOA)", "JDBC", "Multithreading"
         ]
     }
+    
 ]
